@@ -3,7 +3,6 @@ import { FaAnglesRight } from "react-icons/fa6";
 import limited1 from "../../Assets/Images/others/2.jpg";
 import limited2 from "../../Assets/Images/others/8.jpg";
 import limited3 from "../../Assets/Images/others/6.jpg";
-import { GiHidden } from "react-icons/gi";
 
 function HomeLimited() {
   return (
