@@ -4,9 +4,15 @@ import { FaEnvelope } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="bg-[#15303e] text-[#a7babb] font-mubu border-t border-[#e0d5af] w-full h-72  flex justify-between px-32 items-center ">
+    <div
+      className="bg-[#15303e] text-[#a7babb]  
+    font-mubu border-t border-[#e0d5af] w-full md:h-72   md:flex-row flex-col
+    flex justify-between md:px-32 items-center gap-10 py-12 md:py-0 "
+    >
       <div>
-        <h1 className="text-4xl font-bold text-[#e0d5af] ">DJ</h1>
+        <h1 className="text-4xl font-bold text-[#e0d5af] text-center md:text-left">
+          DJ
+        </h1>
         <p className="w-64 text-[#a7babb] ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
           cumque repellat voluptatum itaque molestiae, inventore reprehenderit
