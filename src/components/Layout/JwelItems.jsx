@@ -18,7 +18,7 @@ function JwelItems() {
     <div>
       <div
         className="w-full
-       md:h-40 gap-6 md:gap-20 py-10 flex md:flex-row flex-col 
+       md:h-40 gap-6 md:gap-10 py-10 flex md:flex-row flex-col 
        justify-center items-center "
       >
         <button
