@@ -8,14 +8,16 @@ function HomeLimited() {
   return (
     <div
       className="w-full md:h-[100vh] flex md:flex-row flex-col 
-      md:px-32 text-[#15303e] py-16 items-center "
+      md:px-32 text-[#15303e] py-16 items-center bg-white "
     >
       <div className="md:w-1/4 h-96 flex flex-col gap-12 md:text-left text-center  items-center ">
         <h1 className="font-org text-5xl  capitalize drop-shadow-xl">
           Our <br /> Limited <br className="md:Hidden" /> editions
         </h1>
-        <button className="border border-[#15303e] rounded-full px-6 justify-center w-40 font-mubu
-         text-2xl font-extrabold flex items-center gap-4">
+        <button
+          className="border border-[#15303e] rounded-full px-6 justify-center w-40 font-mubu
+         text-2xl font-extrabold flex items-center gap-4"
+        >
           Explore
           <FaAnglesRight className="text-lg" />
         </button>
