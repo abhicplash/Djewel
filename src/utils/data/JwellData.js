@@ -93,14 +93,15 @@ import bracelet6 from "../../../src/Assets/Images/others/DSC_4369-Enhanced-NRa.j
 import bracelet7 from "../../../src/Assets/Images/others/DSC_4494-Enhanced-NR.jpg";
 import bracelet8 from "../../../src/Assets/Images/others/DSC_4500 copy.jpg";
 
-export var jweldata = [
+export let allJweldata = [
   {
     price: 10,
     Category: "Earrings",
     id: 3,
     name: "Diamond Richcut",
     image: EringImg3,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     price: 10,
@@ -108,7 +109,8 @@ export var jweldata = [
     id: 4,
     name: "Diamond Richcut",
     image: EringImg4,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     price: 10,
@@ -116,7 +118,8 @@ export var jweldata = [
     id: 5,
     name: "Diamond Richcut",
     image: EringImg5,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 6,
@@ -124,7 +127,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     price: 10,
     image: EringImg6,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 7,
@@ -132,7 +136,8 @@ export var jweldata = [
     Category: "Earrings",
     price: 10,
     image: EringImg7,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 1,
@@ -140,7 +145,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg1,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 2,
@@ -148,7 +154,8 @@ export var jweldata = [
     Category: "Earrings",
     name: "Diamond Richcut",
     image: EringImg2,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 8,
@@ -156,7 +163,8 @@ export var jweldata = [
     Category: "Earrings",
     price: 10,
     image: EringImg8,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 10,
@@ -164,7 +172,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg9,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 9,
@@ -172,7 +181,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg10,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 11,
@@ -180,7 +190,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg11,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 12,
@@ -188,7 +199,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg12,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 13,
@@ -196,7 +208,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg13,
-    quantity: 1
+    quantity: 1,
+    page: 2
   },
   {
     id: 14,
@@ -204,7 +217,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg14,
-    quantity: 1
+    quantity: 1,
+    page: 2
   },
   {
     id: 15,
@@ -212,7 +226,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg15,
-    quantity: 1
+    quantity: 1,
+    page: 2
   },
   {
     price: 10,
@@ -220,7 +235,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg16,
-    quantity: 1
+    quantity: 1,
+    page: 2
   },
   {
     price: 10,
@@ -228,7 +244,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg17,
-    quantity: 1
+    quantity: 1,
+    page: 2
   },
   {
     price: 10,
@@ -236,7 +253,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg18,
-    quantity: 1
+    quantity: 1,
+    page: 2
   },
   {
     price: 10,
@@ -244,7 +262,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg19,
-    quantity: 1
+    quantity: 1,
+    page: 2
   },
   {
     price: 10,
@@ -252,7 +271,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg20,
-    quantity: 1
+    quantity: 1,
+    page: 2
   },
   {
     price: 10,
@@ -260,7 +280,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg21,
-    quantity: 1
+    quantity: 1,
+    page: 2
   },
   {
     price: 10,
@@ -268,7 +289,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg22,
-    quantity: 1
+    quantity: 1,
+    page: 2
   },
   {
     price: 10,
@@ -276,7 +298,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg23,
-    quantity: 1
+    quantity: 1,
+    page: 2
   },
   {
     price: 10,
@@ -284,7 +307,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg24,
-    quantity: 1
+    quantity: 1,
+    page: 2
   },
   {
     price: 10,
@@ -292,7 +316,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg25,
-    quantity: 1
+    quantity: 1,
+    page: 3
   },
   {
     price: 10,
@@ -300,7 +325,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg26,
-    quantity: 1
+    quantity: 1,
+    page: 3
   },
   {
     price: 10,
@@ -308,7 +334,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg27,
-    quantity: 1
+    quantity: 1,
+    page: 3
   },
   {
     price: 10,
@@ -316,7 +343,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg28,
-    quantity: 1
+    quantity: 1,
+    page: 3
   },
   {
     price: 10,
@@ -324,7 +352,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg29,
-    quantity: 1
+    quantity: 1,
+    page: 3
   },
   {
     price: 10,
@@ -332,7 +361,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg30,
-    quantity: 1
+    quantity: 1,
+    page: 3
   },
   {
     price: 10,
@@ -340,7 +370,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg31,
-    quantity: 1
+    quantity: 1,
+    page: 3
   },
   {
     price: 10,
@@ -348,7 +379,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg32,
-    quantity: 1
+    quantity: 1,
+    page: 3
   },
   {
     price: 10,
@@ -356,7 +388,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg33,
-    quantity: 1
+    quantity: 1,
+    page: 3
   },
   {
     price: 10,
@@ -364,7 +397,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg34,
-    quantity: 1
+    quantity: 1,
+    page: 3
   },
   {
     price: 10,
@@ -372,7 +406,8 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg35,
-    quantity: 1
+    quantity: 1,
+    page: 3
   },
   {
     price: 10,
@@ -380,294 +415,336 @@ export var jweldata = [
     name: "Diamond Richcut",
     Category: "Earrings",
     image: EringImg36,
-    quantity: 1
+    quantity: 1,
+    page: 3
   },
   {
     id: 37,
     price: 10,
     name: "necklace",
     image: necklace1,
-    quantity: 1
+    quantity: 1,
+    page: 4
   },
   {
     id: 38,
     price: 10,
     name: "necklace",
     image: necklace2,
-    quantity: 1
+    quantity: 1,
+    page: 4
   },
   {
     id: 39,
     price: 10,
     name: "necklace",
     image: necklace3,
-    quantity: 1
+    quantity: 1,
+    page: 4
   },
   {
     id: 40,
     price: 10,
     name: "necklace",
     image: necklace4,
-    quantity: 1
+    quantity: 1,
+    page: 4
   },
   {
     id: 41,
     price: 10,
     name: "necklace",
     image: necklace5,
-    quantity: 1
+    quantity: 1,
+    page: 4
   },
   {
     id: 42,
     price: 10,
     name: "necklace",
     image: necklace6,
-    quantity: 1
+    quantity: 1,
+    page: 4
   },
   {
     id: 43,
     price: 10,
     name: "necklace",
     image: necklace7,
-    quantity: 1
+    quantity: 1,
+    page: 4
   },
   {
     id: 44,
     price: 10,
     name: "necklace",
     image: necklace8,
-    quantity: 1
+    quantity: 1,
+    page: 4
   },
   {
     id: 45,
     price: 10,
     name: "necklace",
     image: necklace9,
-    quantity: 1
+    quantity: 1,
+    page: 4
   },
   {
     id: 46,
     price: 10,
     name: "necklace",
     image: necklace10,
-    quantity: 1
+    quantity: 1,
+    page: 4
   },
   {
     id: 47,
     price: 10,
     name: "necklace",
     image: necklace11,
-    quantity: 1
+    quantity: 1,
+    page: 4
   },
   {
     id: 48,
     price: 10,
     name: "necklace",
     image: necklace12,
-    quantity: 1
+    quantity: 1,
+    page: 4
   },
   {
     id: 49,
     price: 10,
     name: "necklace",
     image: necklace13,
-    quantity: 1
+    quantity: 1,
+    page: 5
   },
   {
     id: 50,
     price: 10,
     name: "necklace",
     image: necklace14,
-    quantity: 1
+    quantity: 1,
+    page: 5
   },
   {
     id: 51,
     price: 10,
     name: "necklace",
     image: necklace15,
-    quantity: 1
+    quantity: 1,
+    page: 5
   },
   {
     id: 52,
     price: 10,
     name: "necklace",
     image: necklace16,
-    quantity: 1
+    quantity: 1,
+    page: 5
   },
   {
     id: 53,
     price: 10,
     name: "necklace",
     image: necklace17,
-    quantity: 1
+    quantity: 1,
+    page: 5
   },
   {
     id: 54,
     price: 10,
     name: "necklace",
     image: necklace18,
-    quantity: 1
+    quantity: 1,
+    page: 5
   },
   {
     id: 55,
     price: 10,
     name: "necklace",
     image: necklace19,
-    quantity: 1
+    quantity: 1,
+    page: 5
   },
   {
     id: 56,
     price: 10,
     name: "necklace",
     image: necklace20,
-    quantity: 1
+    quantity: 1,
+    page: 5
   },
   {
     id: 57,
     price: 10,
     name: "necklace",
     image: necklace21,
-    quantity: 1
+    quantity: 1,
+    page: 5
   },
   {
     id: 58,
     price: 10,
     name: "necklace",
     image: necklace22,
-    quantity: 1
+    quantity: 1,
+    page: 5
   },
   {
     id: 59,
     price: 10,
     name: "necklace",
     image: necklace23,
-    quantity: 1
+    quantity: 1,
+    page: 5
   },
   {
     id: 60,
     price: 10,
     name: "necklace",
     image: necklace24,
-    quantity: 1
+    quantity: 1,
+    page: 5
   },
   {
     id: 61,
     price: 10,
     name: "necklace",
     image: necklace25,
-    quantity: 1
+    quantity: 1,
+    page: 6
   },
   {
     id: 62,
     price: 10,
     name: "necklace",
     image: necklace26,
-    quantity: 1
+    quantity: 1,
+    page: 6
   },
   {
     id: 63,
     price: 10,
     name: "necklace",
     image: necklace27,
-    quantity: 1
+    quantity: 1,
+    page: 6
   },
   {
     id: 64,
     price: 10,
     name: "necklace",
     image: necklace28,
-    quantity: 1
+    quantity: 1,
+    page: 6
   },
   {
     id: 65,
     price: 10,
     name: "necklace",
     image: necklace29,
-    quantity: 1
+    quantity: 1,
+    page: 6
   },
   {
     id: 66,
     price: 10,
     name: "necklace",
     image: necklace30,
-    quantity: 1
+    quantity: 1,
+    page: 6
   },
   {
     id: 67,
     price: 10,
     name: "necklace",
     image: necklace31,
-    quantity: 1
+    quantity: 1,
+    page: 6
   },
   {
     id: 68,
     price: 10,
     name: "necklace",
     image: necklace32,
-    quantity: 1
+    quantity: 1,
+    page: 6
   },
   {
     id: 69,
     price: 10,
     name: "necklace",
     image: necklace33,
-    quantity: 1
+    quantity: 1,
+    page: 6
   },
   {
     id: 70,
     price: 10,
     name: "necklace",
     image: necklace34,
-    quantity: 1
+    quantity: 1,
+    page: 6
   },
   {
     id: 71,
     price: 10,
     name: "necklace",
     image: necklace35,
-    quantity: 1
+    quantity: 1,
+    page: 6
   },
   {
     id: 72,
     price: 10,
     name: "necklace",
     image: necklace36,
-    quantity: 1
+    quantity: 1,
+    page: 6
   },
   {
     id: 573,
     price: 10,
     name: "necklace",
     image: necklace37,
-    quantity: 1
+    quantity: 1,
+    page: 7
   },
   {
     id: 574,
     price: 10,
     name: "necklace",
     image: necklace38,
-    quantity: 1
+    quantity: 1,
+    page: 7
   },
   {
     id: 543,
     name: "Bracelet",
     price: 10,
     image: bracelet1,
-    quantity: 1
+    quantity: 1,
+    page: 7
   },
   {
     id: 545,
     name: "Bracelet",
     price: 10,
     image: bracelet2,
-    quantity: 1
+    quantity: 1,
+    page: 7
   },
   {
     id: 546,
     name: "Bracelet",
     price: 10,
     image: bracelet3,
-    quantity: 1
+    quantity: 1,
+    page: 7
   },
 
   {
@@ -675,7 +752,8 @@ export var jweldata = [
     name: "Bracelet",
     price: 10,
     image: bracelet4,
-    quantity: 1
+    quantity: 1,
+    page: 7
   },
 
   {
@@ -683,7 +761,8 @@ export var jweldata = [
     name: "Bracelet",
     price: 10,
     image: bracelet5,
-    quantity: 1
+    quantity: 1,
+    page: 7
   },
 
   {
@@ -691,7 +770,8 @@ export var jweldata = [
     name: "Bracelet",
     price: 10,
     image: bracelet6,
-    quantity: 1
+    quantity: 1,
+    page: 7
   },
 
   {
@@ -699,7 +779,8 @@ export var jweldata = [
     name: "Bracelet",
     price: 10,
     image: bracelet7,
-    quantity: 1
+    quantity: 1,
+    page: 7
   },
 
   {
@@ -707,28 +788,32 @@ export var jweldata = [
     name: "Bracelet",
     price: 10,
     image: bracelet8,
-    quantity: 1
+    quantity: 1,
+    page: 7
   },
   {
     id: 603,
     price: 10,
     name: "Ring",
     image: ring1,
-    quantity: 1
+    quantity: 1,
+    page: 7
   },
   {
     id: 604,
     price: 10,
     name: "Ring",
     image: ring2,
-    quantity: 1
+    quantity: 1,
+    page: 7
   },
   {
     id: 605,
     price: 10,
     name: "Ring",
     image: ring3,
-    quantity: 1
+    quantity: 1,
+    page: 8
   },
 
   {
@@ -736,14 +821,16 @@ export var jweldata = [
     price: 10,
     name: "Ring",
     image: ring4,
-    quantity: 1
+    quantity: 1,
+    page: 8
   },
   {
     id: 607,
     price: 10,
     name: "Ring",
     image: ring5,
-    quantity: 1
+    quantity: 1,
+    page: 8
   },
 
   {
@@ -751,27 +838,31 @@ export var jweldata = [
     price: 10,
     name: "Ring",
     image: ring6,
-    quantity: 1
+    quantity: 1,
+    page: 8
   },
   {
     id: 609,
     price: 10,
     name: "Ring",
     image: ring7,
-    quantity: 1
+    quantity: 1,
+    page: 8
   },
   {
     id: 610,
     price: 10,
     name: "Ring",
     image: ring8,
-    quantity: 1
+    quantity: 1,
+    page: 8
   },
   {
     id: 611,
     price: 10,
     name: "Ring",
     image: ring9,
-    quantity: 1
+    quantity: 1,
+    page: 8
   }
 ];

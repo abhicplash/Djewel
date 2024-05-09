@@ -1,6 +1,7 @@
 import React from "react";
 import { IoLocation, IoCall } from "react-icons/io5";
 import { FaEnvelope } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -10,9 +11,11 @@ function Footer() {
     flex justify-between md:px-32 items-center gap-10 py-12 md:py-0 "
     >
       <div>
-        <h1 className="text-4xl font-bold text-[#e0d5af] text-center md:text-left">
-          DJ
-        </h1>
+        <Link to={"/"}>
+          <h1 className="text-4xl font-bold text-[#e0d5af] text-center md:text-left">
+            DJ
+          </h1>
+        </Link>
         <p className="w-64 text-[#a7babb] ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
           cumque repellat voluptatum itaque molestiae, inventore reprehenderit

@@ -14,78 +14,78 @@ export var limitedData = [
     image: image1,
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-
     price: 10,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 2,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-
     image: image2,
     price: 10,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 3,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-
     image: image3,
     price: 10,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 4,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-
     image: image4,
     price: 10,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 5,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-
     image: image5,
     price: 10,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 6,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-
     image: image6,
     price: 10,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 7,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-
     image: image7,
     price: 10,
-    quantity: 1
+    quantity: 1,
+    page: 1
   },
   {
     id: 8,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-
     image: image8,
     price: 10,
-    quantity: 1
+    quantity: 1,
+    page: 1
   }
 ];
