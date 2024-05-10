@@ -6,6 +6,7 @@ import { neckData } from "../../utils/data/NeckData";
 import { limitedData } from "../../utils/data/limitedData";
 import { braceData } from "../../utils/data/braceletData";
 import { earData } from "../../utils/data/earingData";
+import { Link } from "react-router-dom";
 
 function JwelItems() {
   const [jwelDataItems, setJwelDataItems] = useState(allJweldata);
@@ -90,7 +91,9 @@ function JwelItems() {
                     <h1 className="font-org text-xs">by Dtopaz</h1>
                     <h1 className="text-xs">${jwel.price}</h1>
                   </div>
-                  <CiCircleChevRight className="text-4xl text-[#e0d5af] font-extrabold" />
+                  <Link to={`/product/${jwel.id}`}>
+                    <CiCircleChevRight className="text-4xl text-[#e0d5af] font-extrabold" />
+                  </Link>
                 </div>
               </div>
             );
@@ -99,7 +102,8 @@ function JwelItems() {
       <div className="w-full 0 px-10 md:px-32 flex flex-wrap gap-3 justify-center">
         {totalPages.map((page) => (
           <button
-            className=" cursor-pointer border text-[#15303e] border-[#15303e] py-1 px-3 shadow-sm justify-center items-center "
+            className=" cursor-pointer border text-[#15303e] border-[#15303e] py-1 px-3 
+            shadow-sm justify-center items-center active:text-red-600"
             onClick={(e) => {
               setPageNumber(e.target.innerText);
             }}

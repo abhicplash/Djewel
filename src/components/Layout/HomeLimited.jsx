@@ -3,6 +3,7 @@ import { FaAnglesRight } from "react-icons/fa6";
 import limited1 from "../../Assets/Images/others/2.jpg";
 import limited2 from "../../Assets/Images/others/8.jpg";
 import limited3 from "../../Assets/Images/others/6.jpg";
+import { Link } from "react-router-dom";
 
 function HomeLimited() {
   return (
@@ -14,13 +15,15 @@ function HomeLimited() {
         <h1 className="font-org text-5xl  capitalize drop-shadow-xl">
           Our <br /> Limited <br className="md:Hidden" /> editions
         </h1>
-        <button
-          className="border border-[#15303e] rounded-full px-6 justify-center w-40 font-mubu
-         text-2xl font-extrabold flex items-center gap-4"
-        >
-          Explore
-          <FaAnglesRight className="text-lg" />
-        </button>
+        <Link to={"/shop"}>
+          <button
+            className="border border-[#15303e] rounded-full px-6 justify-center w-40 font-mubu
+          text-2xl font-extrabold flex items-center gap-4"
+          >
+            Explore
+            <FaAnglesRight className="text-lg" />
+          </button>
+        </Link>
       </div>
       <div className="md:w-3/4 md:h-[25rem] flex md:flex-row flex-col gap-12 md:gap-5 justify-center items-center">
         <div className="border md:w-56 border-[#e0d5af] flex flex-col shadow-xl shadow-[#e0d5af]">

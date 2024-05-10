@@ -8,7 +8,8 @@ module.exports = {
         Rampart: ["Rampart One", "cursive"],
         Head: ["Quattrocento Sans", "sans-serif"],
         org: ["Playfair Display", "serif"],
-        dj: ["Dancing Script", "cursive"]
+        dj: ["Dancing Script", "cursive"],
+        Numbers: ["Gideon Roman", "serif"]
       },
       backgroundImage: {
         one: "url('/src/Assets/Images/bennermodels/8.jpg')",

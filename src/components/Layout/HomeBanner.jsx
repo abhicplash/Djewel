@@ -1,6 +1,8 @@
 import React from "react";
 import fgpic from "../../Assets/Images/bennermodels/7.jpg";
 import bgpic from "../../Assets/Images/bennermodels/4.jpg";
+import { FaAnglesRight } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 function HomeBanner() {
   return (
@@ -10,7 +12,7 @@ function HomeBanner() {
     flex-col-reverse
     md:items-center md:pl-36  relative"
     >
-      <div className="text-center md:text-left ">
+      <div className="text-center md:text-left flex flex-col items-center md:items-start gap-3">
         <h1 className="text-5xl text-[#e0d5af] font-org uppercase ">
           unique & authentic <br /> hand made Designed <br /> jewellery
         </h1>
@@ -19,6 +21,15 @@ function HomeBanner() {
           <br className="md:flex hidden" /> who embrace the art of jewelry
           making
         </p>
+        <Link to={"/shop"}>
+          <button
+            className="border border-[#a7babb] rounded-full px-6 justify-center w-40 font-mubu
+          text-2xl font-extrabold flex items-center gap-4 text-[#e0d5af]"
+          >
+            Explore
+            <FaAnglesRight className="text-lg" />
+          </button>
+        </Link>
       </div>
       <div className="flex gap-3 relative  md:w-1/2 ">
         <img
