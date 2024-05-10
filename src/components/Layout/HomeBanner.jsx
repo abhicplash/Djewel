@@ -1,6 +1,6 @@
 import React from "react";
 import fgpic from "../../Assets/Images/bennermodels/7.jpg";
-import bgpic from "../../Assets/Images/bennermodels/4.jpg";
+import bgpic from "../../Assets/Images/bennermodels/3.jpg";
 import { FaAnglesRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
@@ -8,26 +8,26 @@ function HomeBanner() {
   return (
     <div
       className="w-full md:h-[100vh] py-5
-       md:py-0 bg-[#15303e] font-mub gap-3 flex md:flex-row 
+       md:py-0  bg-[#2e728f] font-mub gap-3 flex md:flex-row 
     flex-col-reverse
     md:items-center md:pl-36  relative"
     >
       <div className="text-center md:text-left flex flex-col items-center md:items-start gap-3">
-        <h1 className="text-5xl text-[#e0d5af] font-org uppercase ">
+        <h1 className="text-5xl text-[#c08f52] font-org uppercase ">
           unique & authentic <br /> hand made Designed <br /> jewellery
         </h1>
-        <p className="text-xl text-[#a7babb] font-mubu capitalize pt-5 md:pt-0 ">
+        <p className="text- text-[#a7babb] font-org capitalize pt-5 md:pt-0 ">
           Each piece is born from Hands of our dedicated craftsmen,
           <br className="md:flex hidden" /> who embrace the art of jewelry
           making
         </p>
         <Link to={"/shop"}>
           <button
-            className="border border-[#a7babb] rounded-full px-6 justify-center w-40 font-mubu
-          text-2xl font-extrabold flex items-center gap-4 text-[#e0d5af]"
+            className="border-2 border-[#a7babb] rounded-full px-6 py-1 justify-center w-40 font-org
+          text-xl  flex items-center gap-4 text-[#e0d5af] hover:text-[#c08f52] hover:border-[#c08f52] duration-700"
           >
             Explore
-            <FaAnglesRight className="text-lg" />
+            <FaAnglesRight className="" />
           </button>
         </Link>
       </div>

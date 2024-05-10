@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div
-      className="bg-[#15303e] text-[#a7babb]  
-    font-mubu border-t border-[#e0d5af] w-full md:h-72   md:flex-row flex-col
+      className="bg-[#2e728f] text-[#a7babb]  
+    font-Numbers border-t border-[#e0d5af] w-full md:h-72   md:flex-row flex-col
     flex justify-between md:px-32 items-center gap-10 py-12 md:py-0 "
     >
-      <div>
+      <div className="flex-col flex gap-3">
         <Link to={"/"}>
-          <h1 className="text-4xl font-bold text-[#e0d5af] text-center md:text-left">
+          <h1 className="text-4xl font-bold text-[#c08f52] text-center md:text-left">
             DJ
           </h1>
         </Link>
@@ -24,10 +24,18 @@ function Footer() {
       <div>
         <h1 className="font-bold text-xl">Links</h1>
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Shop</li>
-          <li>Cart</li>
+          <Link to={"/"}>
+            <li>Home</li>
+          </Link>
+          <Link to={"/contact"}>
+            <li>Contact Us</li>
+          </Link>
+          <Link to={"/shop"}>
+            <li>Shop</li>
+          </Link>
+          <Link to={"/cart"}>
+            <li>Cart</li>
+          </Link>
         </ul>
       </div>
       <div>

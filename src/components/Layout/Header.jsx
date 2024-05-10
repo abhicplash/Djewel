@@ -7,26 +7,26 @@ function Header() {
   const [view, setView] = useState(false);
   return (
     <div
-      className="font-mubu drop-shadow-sm bg-[#15303e] border-b z-50 relative
-     border-[#e0d5af] px-5 md:px-36 w-full h-14 md:h-12 flex items-center justify-between "
+      className="font-org drop-shadow-sm bg-[#2e728f] border-b-2 z-50 relative
+     border-[#c08f52] px-5 md:px-36 w-full h-14 md:h-12 flex items-center justify-between "
     >
       <Link to={"/"}>
-        <h1 className="text-3xl text-[#e0d5af] hover:scale-105 duration-700 font-bold ">
+        <h1 className="text-3xl text-[#c08f52] hover:scale-105 duration-700 font-bold ">
           DJ
         </h1>
       </Link>
-      <ul className="hidden md:flex gap-12 text-lg items-center font-bold ">
+      <ul className="hidden md:flex gap-12 text-sm items-center font-semibold ">
         <Link to={"/"}>
-          <li className="text-[#a7babb] hover:text-[#e0d5af]">Home</li>
+          <li className="text-[#a7babb] hover:text-[#c08f52]">Home</li>
         </Link>
         <Link to={"/shop"}>
-          <li className="text-[#a7babb] hover:text-[#e0d5af]">Shop</li>
+          <li className="text-[#a7babb] hover:text-[#c08f52]">Shop</li>
         </Link>
         <Link to={"/contact"}>
-          <li className="text-[#a7babb] hover:text-[#e0d5af]">Contact us</li>
+          <li className="text-[#a7babb] hover:text-[#c08f52]">Contact us</li>
         </Link>
         <Link to={"/cart"}>
-          <FaShoppingCart className="text-[#e0d5af] hover:text-[#e0d5af]" />
+          <FaShoppingCart className="text-[#c08f52] hover:text-[#e0d5af] text-lg" />
         </Link>
       </ul>
       {view ? (

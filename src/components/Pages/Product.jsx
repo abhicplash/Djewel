@@ -26,7 +26,7 @@ function Product() {
               <h1 className="text-3xl md:text-5xl text-center font-org">
                 {list.name}
               </h1>
-              <p className="text-justify font-mubu text-lg">
+              <p className="text-justify font-Head text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Possimus aut eligendi, aperiam neque sunt, unde repudiandae cum
                 praesentium inventore debitis sint expedita. Nostrum veniam at

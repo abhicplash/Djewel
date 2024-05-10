@@ -23,7 +23,7 @@ function JwelItems() {
        justify-center items-center "
       >
         <button
-          className="border border-[#e0d5af] text-[#15303e] 
+          className="border border-[#c08f52] text-[#2e728f] active:text-red-600  active:border-red-600
            font-org w-40 py-1 rounded-full"
           onClick={() => {
             setJwelDataItems(allJweldata);
@@ -32,7 +32,7 @@ function JwelItems() {
           All
         </button>
         <button
-          className="border border-[#e0d5af] text-[#15303e]
+          className="border border-[#c08f52] text-[#2e728f] active:text-red-600  active:border-red-600
            font-org w-40 py-1 rounded-full"
           onClick={() => {
             setJwelDataItems(ringData);
@@ -41,7 +41,7 @@ function JwelItems() {
           Ring
         </button>
         <button
-          className="border border-[#e0d5af] text-[#15303e] font-org w-40 py-1 rounded-full"
+          className="border border-[#c08f52] text-[#2e728f] font-org w-40 py-1 rounded-full active:text-red-600  active:border-red-600"
           onClick={() => {
             setJwelDataItems(braceData);
           }}
@@ -49,7 +49,7 @@ function JwelItems() {
           Bracelet
         </button>
         <button
-          className="border border-[#e0d5af] text-[#15303e] font-org w-40 py-1 rounded-full"
+          className="border border-[#c08f52] text-[#2e728f] font-org w-40 py-1 rounded-full active:text-red-600  active:border-red-600"
           onClick={() => {
             setJwelDataItems(neckData);
           }}
@@ -57,7 +57,7 @@ function JwelItems() {
           Necklace
         </button>
         <button
-          className="border border-[#e0d5af] text-[#15303e] font-org w-40 py-1 rounded-full"
+          className="border border-[#c08f52] text-[#2e728f] font-org w-40 py-1 rounded-full active:text-red-600 active:border-red-600"
           onClick={() => {
             setJwelDataItems(earData);
           }}
@@ -68,7 +68,7 @@ function JwelItems() {
           onClick={() => {
             setJwelDataItems(limitedData);
           }}
-          className="border border-[#e0d5af] text-[#15303e] font-org w-40 py-1 rounded-full"
+          className="border border-[#c08f52] text-[#2e728f] font-org w-40 py-1 rounded-full active:text-red-600  active:border-red-600"
         >
           Limited
         </button>
@@ -79,20 +79,20 @@ function JwelItems() {
           .map((jwel) => {
             return (
               <div
-                className="font-mubu w-56 h-96 bg-white flex flex-col  
-                justify-center  items-center border border-[#e0d5af] shadow-sm shadow-[#e0d5af]"
+                className="font-org w-56 h-96 bg-white flex flex-col  
+                justify-center  items-center border border-[#c08f52] shadow-sm shadow-[#e0d5af]"
               >
                 <img src={jwel.image} alt="" className="h-72 w-full  " />
                 <div className="flex justify-between items-center w-full p-3 ">
-                  <div className="text-left flex flex-col gap-1 text-[#15303e]">
-                    <h1 className="font-extrabold text-xl capitalize">
-                      {jwel.name}
-                    </h1>
+                  <div className="text-left flex flex-col gap-1 text-[#2e728f]">
+                    <h1 className=" text- capitalize">{jwel.name}</h1>
                     <h1 className="font-org text-xs">by Dtopaz</h1>
-                    <h1 className="text-xs">${jwel.price}</h1>
+                    <h1 className=" font-Numbers text-sm">
+                      <span className="text-">{jwel.price}</span> AED
+                    </h1>
                   </div>
                   <Link to={`/product/${jwel.id}`}>
-                    <CiCircleChevRight className="text-4xl text-[#e0d5af] font-extrabold" />
+                    <CiCircleChevRight className="text-4xl text-[#c08f52] font-extrabold" />
                   </Link>
                 </div>
               </div>
@@ -102,7 +102,7 @@ function JwelItems() {
       <div className="w-full 0 px-10 md:px-32 flex flex-wrap gap-3 justify-center">
         {totalPages.map((page) => (
           <button
-            className=" cursor-pointer border text-[#15303e] border-[#15303e] py-1 px-3 
+            className=" cursor-pointer border text-[#15303e] border-[#c08f52] py-1 px-3 
             shadow-sm justify-center items-center active:text-red-600"
             onClick={(e) => {
               setPageNumber(e.target.innerText);

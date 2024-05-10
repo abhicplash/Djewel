@@ -12,8 +12,8 @@ function Shop() {
   ) : (
     <Layout>
       <div className="pb-10">
-        <div className="w-full h-72 bg-[#15303e]  flex justify-center items-center text-[#e0d5af]">
-          <h1 className="text-5xl font-bold font-mubu ">Shop</h1>
+        <div className="w-full h-72 bg-[#2e728f]  flex justify-center items-center text-[#c08f52]">
+          <h1 className="text-5xl  font-bold font-mubu ">Shop</h1>
         </div>
         <JwelItems />
       </div>

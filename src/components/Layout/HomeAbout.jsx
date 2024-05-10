@@ -9,7 +9,7 @@ const HomeAbout = () => {
     <div
       className="border-b border-[#e0d5af] w-full py-6 gap-5 md:gap-0
      md:py-0 md:h-[100vh] px-5 md:px-36 flex md:flex-row flex-col 
-      items-center justify-between  text-[#15303e] "
+      items-center justify-between  text-[#2e728f] "
     >
       <div
         className=" md:flex bg-five w-80 md:w-96 h-80 md:h-[30rem]
@@ -29,7 +29,7 @@ const HomeAbout = () => {
           <div>
             <h1 className="flex items-center text-xl
              font-org capitalize gap-3 font-bold">
-              <GiCrystalEarrings />
+              <GiCrystalEarrings className="text-[#c08f52]"/>
               capturing collections
             </h1>
             <p className="text-xs pl-9">
@@ -40,7 +40,7 @@ const HomeAbout = () => {
           <div>
             <h1 className="flex items-center text-xl font-org 
             capitalize gap-3 font-bold">
-              <GiHeartNecklace />
+              <GiHeartNecklace className="text-[#c08f52]" />
               handmade craft
             </h1>
             <p className="text-xs pl-9">
@@ -51,7 +51,7 @@ const HomeAbout = () => {
           <div>
             <h1 className="flex items-center text-xl font-org capitalize
              gap-3 font-bold">
-              <GiBigDiamondRing />
+              <GiBigDiamondRing className="text-[#c08f52]"/>
               Aesthetic design
             </h1>
             <p className="text-xs pl-9">
