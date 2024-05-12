@@ -13,13 +13,17 @@ function HomeBanner() {
     md:items-center md:pl-36  relative"
     >
       <div className="text-center md:text-left flex flex-col items-center md:items-start gap-3">
-        <h1 className="text-5xl text-[#c08f52] font-org uppercase ">
-          unique & authentic <br /> hand made Designed <br /> jewellery
+        <h1 className="text-5xl text-[#c08f52] font-org uppercase  ">
+          {/* Proud Emirati brand is promising to bring happiness through the
+          beautiful topaz stone */}
+          Diana Topaz, <br />
+          the symbol of <br /> prosperity & abundance
+          {/* unique & Aesthetic <br /> hand made Designed <br /> jewellery */}
         </h1>
-        <p className="text- text-[#a7babb] font-org capitalize pt-5 md:pt-0 ">
-          Each piece is born from Hands of our dedicated craftsmen,
-          <br className="md:flex hidden" /> who embrace the art of jewelry
-          making
+        <p className="text- text-[#a7babb] font-Numbers capitalize pt-5 md:pt-0  ">
+          promising to bring happiness through the beautiful topaz stone <br />{" "}
+          which is the signature of the brand and the symbol of <br />{" "}
+          prosperity and abundance
         </p>
         <Link to={"/shop"}>
           <button

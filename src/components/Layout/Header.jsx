@@ -7,12 +7,12 @@ function Header() {
   const [view, setView] = useState(false);
   return (
     <div
-      className="font-org drop-shadow-sm bg-[#2e728f] border-b-2 z-50 relative
+      className=" drop-shadow-sm bg-[#2e728f] border-b-2 z-50 relative font-Numbers 
      border-[#c08f52] px-5 md:px-36 w-full h-14 md:h-12 flex items-center justify-between "
     >
       <Link to={"/"}>
         <h1 className="text-3xl text-[#c08f52] hover:scale-105 duration-700 font-bold ">
-          DJ
+        Diana Topaz
         </h1>
       </Link>
       <ul className="hidden md:flex gap-12 text-sm items-center font-semibold ">

@@ -27,36 +27,46 @@ const HomeAbout = () => {
         </h1>
         <div className="flex flex-col gap-5 pl-5 ">
           <div>
-            <h1 className="flex items-center text-xl
-             font-org capitalize gap-3 font-bold">
-              <GiCrystalEarrings className="text-[#c08f52]"/>
-              capturing collections
+            <h1
+              className="flex items-center text-xl
+             font-org capitalize gap-3 font-bold"
+            >
+              <GiCrystalEarrings className="text-[#c08f52]" />
+              prosperity , Happiness & memories
             </h1>
             <p className="text-xs pl-9">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Et
-              corrupti sed, reiciendis error assumenda numquam
+              Our artisans in Dubai put their heart into every creation. We want{" "}
+              <br />
+              to make you happy, so we make custom jewelry that shows off your{" "}
+              <br />
+              style. Let's create amazing memories together with Diana Topaz!
             </p>
           </div>
           <div>
-            <h1 className="flex items-center text-xl font-org 
-            capitalize gap-3 font-bold">
+            <h1
+              className="flex items-center text-xl font-org 
+            capitalize gap-3 font-bold"
+            >
               <GiHeartNecklace className="text-[#c08f52]" />
-              handmade craft
+              affordable & genuine diamonds
             </h1>
             <p className="text-xs pl-9">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Et
-              corrupti sed, reiciendis error assumenda numquam
+              Make our jewelry available to majority of population by being{" "}
+              <br />
+              affordable using genuine stones and sustainable diamonds.
             </p>
           </div>
           <div>
-            <h1 className="flex items-center text-xl font-org capitalize
-             gap-3 font-bold">
-              <GiBigDiamondRing className="text-[#c08f52]"/>
-              Aesthetic design
+            <h1
+              className="flex items-center text-xl font-org capitalize
+             gap-3 font-bold"
+            >
+              <GiBigDiamondRing className="text-[#c08f52]" />
+              Aesthetic & unique design
             </h1>
             <p className="text-xs pl-9">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Et
-              corrupti sed, reiciendis error assumenda numquam
+              Each piece is unique and designed on special request <br />
+              to make you look stunning and feel great.
             </p>
           </div>
         </div>
