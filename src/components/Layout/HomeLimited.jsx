@@ -28,21 +28,21 @@ function HomeLimited() {
       <div className="md:w-3/4 md:h-[25rem] flex md:flex-row flex-col gap-12 md:gap-5 justify-center items-center">
         <div className="border md:w-56 border-[#e0d5af] flex flex-col shadow-xl shadow-[#e0d5af]">
           <img src={limited1} alt="" className=" w-56 h-80  " />
-          <div className="w-56 h-20 font-org  text-center flex flex-col justify-end pb-2">
+          <div className="w-56 h-20 font-Numbers font-bold  text-center flex flex-col justify-end pb-2">
             <h1 className=" text-lg">Customized Lockets</h1>
             <h1 className=" text-[#e0d5af]">by Dtopaz</h1>
           </div>
         </div>
         <div className="border md:w-56 border-[#e0d5af] flex flex-col shadow-xl shadow-[#e0d5af]">
           <img src={limited2} alt="" className=" w-56 h-80  " />
-          <div className="w-56 h-20 font-org  text-center flex flex-col justify-end pb-2">
+          <div className="w-56 h-20 font-Numbers font-bold  text-center flex flex-col justify-end pb-2">
             <h1 className=" text-lg">Customized Glasses</h1>
             <h1 className=" text-[#e0d5af]">by Dtopaz</h1>
           </div>
         </div>
         <div className="border md:w-56 border-[#e0d5af] flex flex-col shadow-xl shadow-[#e0d5af]">
           <img src={limited3} alt="" className=" w-56 h-80  " />
-          <div className="w-56 h-20 font-org  text-center flex flex-col justify-end pb-2">
+          <div className="w-56 h-20 font-Numbers font-bold  text-center flex flex-col justify-end pb-2">
             <h1 className=" text-lg">Customized Keys</h1>
             <h1 className=" text-[#e0d5af]">by Dtopaz</h1>
           </div>

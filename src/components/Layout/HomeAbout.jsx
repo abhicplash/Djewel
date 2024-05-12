@@ -22,19 +22,22 @@ const HomeAbout = () => {
          shadow-lg shadow-[#e0d5af] absolute left-[29rem] "
       />
       <div className="flex flex-col gap-9">
-        <h1 className="text-5xl uppercase font-org drop-shadow-lg text-center md:text-left">
+        <h1
+          className="text-5xl uppercase font-org 
+         text-center md:text-left"
+        >
           what we offers
         </h1>
         <div className="flex flex-col gap-5 pl-5 ">
           <div>
             <h1
-              className="flex items-center text-xl
+              className="flex items-center text-2xl
              font-org capitalize gap-3 font-bold"
             >
               <GiCrystalEarrings className="text-[#c08f52]" />
               prosperity , Happiness & memories
             </h1>
-            <p className="text-xs pl-9">
+            <p className="text-sm pl-9 font-Numbers font-semibold pt-2 ">
               Our artisans in Dubai put their heart into every creation. We want{" "}
               <br />
               to make you happy, so we make custom jewelry that shows off your{" "}
@@ -44,13 +47,13 @@ const HomeAbout = () => {
           </div>
           <div>
             <h1
-              className="flex items-center text-xl font-org 
+              className="flex items-center text-2xl font-org 
             capitalize gap-3 font-bold"
             >
               <GiHeartNecklace className="text-[#c08f52]" />
               affordable & genuine diamonds
             </h1>
-            <p className="text-xs pl-9">
+            <p className="text-sm pl-9  font-Numbers font-semibold pt-2">
               Make our jewelry available to majority of population by being{" "}
               <br />
               affordable using genuine stones and sustainable diamonds.
@@ -58,13 +61,13 @@ const HomeAbout = () => {
           </div>
           <div>
             <h1
-              className="flex items-center text-xl font-org capitalize
+              className="flex items-center text-2xl font-org capitalize
              gap-3 font-bold"
             >
               <GiBigDiamondRing className="text-[#c08f52]" />
               Aesthetic & unique design
             </h1>
-            <p className="text-xs pl-9">
+            <p className="text-sm pl-9 font-Numbers font-semibold pt-2">
               Each piece is unique and designed on special request <br />
               to make you look stunning and feel great.
             </p>

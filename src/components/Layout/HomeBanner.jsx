@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function HomeBanner() {
   return (
     <div
-      className="w-full md:h-[100vh] py-5
+      className="w-full md:h-[93vh] py-5
        md:py-0  bg-[#2e728f] font-mub gap-3 flex md:flex-row 
     flex-col-reverse
     md:items-center md:pl-36  relative"
@@ -35,12 +35,12 @@ function HomeBanner() {
           </button>
         </Link>
       </div>
-      <div className="flex gap-3 relative  md:w-1/2 ">
+      <div className="flex gap-3 relative  md:w-[70%]  ">
         <img
           src={bgpic}
           alt=""
-          className="rounded-lg md:rounded-sm shadow-sm 
-           md:w-[25rem] md:h-[30rem] mt-5 md:mt-0 h-80 w-80 
+          className="rounded-xl md:rounded-sm shadow-sm 
+           md:w-[28rem] md:h-[30rem] mt-5 md:mt-0 h-80 w-80 
             ml-5 md:ml-0 "
         />
         <img
