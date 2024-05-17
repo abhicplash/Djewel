@@ -8,8 +8,8 @@ function Home() {
   return (
     <Layout>
       <HomeBanner />
-      <HomeAbout/>
-      <HomeLimited/>
+      <HomeAbout />
+      <HomeLimited />
     </Layout>
   );
 }

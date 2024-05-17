@@ -1,3 +1,12 @@
+import limiimage1 from "../../Assets/Images/others/1.jpg";
+import limiimage2 from "../../Assets/Images/others/2.jpg";
+import limiimage3 from "../../Assets/Images/others/3.jpg";
+import limiimage4 from "../../Assets/Images/others/4.jpg";
+import limiimage5 from "../../Assets/Images/others/5.jpg";
+import limiimage6 from "../../Assets/Images/others/6.jpg";
+import limiimage7 from "../../Assets/Images/others/7.jpg";
+import limiimage8 from "../../Assets/Images/others/8.jpg";
+
 import EringImg1 from "../../../src/Assets/Images/Earings/1.jpg";
 import EringImg2 from "../../../src/Assets/Images/Earings/2.jpg";
 import EringImg3 from "../../../src/Assets/Images/Earings/3.jpg";
@@ -84,14 +93,15 @@ import ring7 from "../../../src/Assets/Images/Rings/1 (7).jpg";
 import ring8 from "../../../src/Assets/Images/Rings/1 (8).jpg";
 import ring9 from "../../../src/Assets/Images/Rings/1 (9).jpg";
 
-import bracelet1 from "../../../src/Assets/Images/others/DSC_4318-Enhanced-NR.jpg";
-import bracelet2 from "../../../src/Assets/Images/others/DSC_4320-Enhanced-NR.jpg";
-import bracelet3 from "../../../src/Assets/Images/others/DSC_4341-Enhanced-NR.jpg";
-import bracelet4 from "../../../src/Assets/Images/others/DSC_4345-Enhanced-NR.jpg";
-import bracelet5 from "../../../src/Assets/Images/others/DSC_4369-Enhanced-NR.jpg";
-import bracelet6 from "../../../src/Assets/Images/others/DSC_4369-Enhanced-NRa.jpg";
-import bracelet7 from "../../../src/Assets/Images/others/DSC_4494-Enhanced-NR.jpg";
-import bracelet8 from "../../../src/Assets/Images/others/DSC_4500 copy.jpg";
+import bracelet1 from "../../Assets/Images/Bracelets/Bracelet1.png";
+import bracelet2 from "../../Assets/Images/Bracelets/Bracelet2.png";
+import bracelet3 from "../../Assets/Images/Bracelets/Bracelet3.png";
+import bracelet4 from "../../Assets/Images/Bracelets/Bracelet4.png";
+import bracelet5 from "../../Assets/Images/Bracelets/Bracelet5.png";
+import bracelet6 from "../../Assets/Images/Bracelets/Bracelet6.png";
+import bracelet7 from "../../Assets/Images/Bracelets/Bracelet7.png";
+import bracelet8 from "../../Assets/Images/Bracelets/Bracelet8.png";
+
 
 export let allJweldata = [
   {
@@ -723,73 +733,84 @@ export let allJweldata = [
     page: 7
   },
   {
-    id: 543,
-    name: "Bracelet",
-    price: 10,
+    id: 108091,
+    name: "Special",
     image: bracelet1,
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
+    price: 10,
     quantity: 1,
-    page: 7
+    page: 1
   },
   {
-    id: 545,
-    name: "Bracelet",
-    price: 10,
+    id: 108092,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
     image: bracelet2,
+    price: 10,
     quantity: 1,
-    page: 7
+    page: 1
   },
   {
-    id: 546,
-    name: "Bracelet",
-    price: 10,
+    id: 108093,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
     image: bracelet3,
-    quantity: 1,
-    page: 7
-  },
-
-  {
-    id: 547,
-    name: "Bracelet",
     price: 10,
+    quantity: 1,
+    page: 1
+  },
+  {
+    id: 108094,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
     image: bracelet4,
-    quantity: 1,
-    page: 7
-  },
-
-  {
-    id: 548,
-    name: "Bracelet",
     price: 10,
+    quantity: 1,
+    page: 1
+  },
+  {
+    id: 108095,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
     image: bracelet5,
-    quantity: 1,
-    page: 7
-  },
-
-  {
-    id: 549,
-    name: "Bracelet",
     price: 10,
+    quantity: 1,
+    page: 1
+  },
+  {
+    id: 108096,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
     image: bracelet6,
-    quantity: 1,
-    page: 7
-  },
-
-  {
-    id: 550,
-    name: "Bracelet",
     price: 10,
+    quantity: 1,
+    page: 1
+  },
+  {
+    id: 108097,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
     image: bracelet7,
-    quantity: 1,
-    page: 7
-  },
-
-  {
-    id: 551,
-    name: "Bracelet",
     price: 10,
-    image: bracelet8,
     quantity: 1,
-    page: 7
+    page: 1
+  },
+  {
+    id: 108098,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
+    image: bracelet8,
+    price: 10,
+    quantity: 1,
+    page: 1
   },
   {
     id: 603,
@@ -864,5 +885,85 @@ export let allJweldata = [
     image: ring9,
     quantity: 1,
     page: 8
+  },
+  {
+    id: 8091,
+    name: "Special",
+    image: limiimage1,
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
+    price: 10,
+    quantity: 1,
+    page: 1
+  },
+  {
+    id: 8092,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
+    image: limiimage2,
+    price: 10,
+    quantity: 1,
+    page: 1
+  },
+  {
+    id: 8093,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
+    image: limiimage3,
+    price: 10,
+    quantity: 1,
+    page: 1
+  },
+  {
+    id: 8094,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
+    image: limiimage4,
+    price: 10,
+    quantity: 1,
+    page: 1
+  },
+  {
+    id: 8095,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
+    image: limiimage5,
+    price: 10,
+    quantity: 1,
+    page: 1
+  },
+  {
+    id: 8096,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
+    image: limiimage6,
+    price: 10,
+    quantity: 1,
+    page: 1
+  },
+  {
+    id: 8097,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
+    image: limiimage7,
+    price: 10,
+    quantity: 1,
+    page: 1
+  },
+  {
+    id: 8098,
+    name: "Special",
+    details:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
+    image: limiimage8,
+    price: 10,
+    quantity: 1,
+    page: 1
   }
 ];

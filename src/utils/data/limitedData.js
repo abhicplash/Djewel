@@ -1,17 +1,17 @@
-import image1 from "../../Assets/Images/others/1.jpg";
-import image2 from "../../Assets/Images/others/2.jpg";
-import image3 from "../../Assets/Images/others/3.jpg";
-import image4 from "../../Assets/Images/others/4.jpg";
-import image5 from "../../Assets/Images/others/5.jpg";
-import image6 from "../../Assets/Images/others/6.jpg";
-import image7 from "../../Assets/Images/others/7.jpg";
-import image8 from "../../Assets/Images/others/8.jpg";
+import limiimage1 from "../../Assets/Images/others/1.jpg";
+import limiimage2 from "../../Assets/Images/others/2.jpg";
+import limiimage3 from "../../Assets/Images/others/3.jpg";
+import limiimage4 from "../../Assets/Images/others/4.jpg";
+import limiimage5 from "../../Assets/Images/others/5.jpg";
+import limiimage6 from "../../Assets/Images/others/6.jpg";
+import limiimage7 from "../../Assets/Images/others/7.jpg";
+import limiimage8 from "../../Assets/Images/others/8.jpg";
 
 export var limitedData = [
   {
-    id: 1,
+    id: 8091,
     name: "Special",
-    image: image1,
+    image: limiimage1,
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
     price: 10,
@@ -19,71 +19,71 @@ export var limitedData = [
     page: 1
   },
   {
-    id: 2,
+    id: 8092,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-    image: image2,
+    image: limiimage2,
     price: 10,
     quantity: 1,
     page: 1
   },
   {
-    id: 3,
+    id: 8093,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-    image: image3,
+    image: limiimage3,
     price: 10,
     quantity: 1,
     page: 1
   },
   {
-    id: 4,
+    id: 8094,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-    image: image4,
+    image: limiimage4,
     price: 10,
     quantity: 1,
     page: 1
   },
   {
-    id: 5,
+    id: 8095,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-    image: image5,
+    image: limiimage5,
     price: 10,
     quantity: 1,
     page: 1
   },
   {
-    id: 6,
+    id: 8096,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-    image: image6,
+    image: limiimage6,
     price: 10,
     quantity: 1,
     page: 1
   },
   {
-    id: 7,
+    id: 8097,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-    image: image7,
+    image: limiimage7,
     price: 10,
     quantity: 1,
     page: 1
   },
   {
-    id: 8,
+    id: 8098,
     name: "Special",
     details:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium",
-    image: image8,
+    image: limiimage8,
     price: 10,
     quantity: 1,
     page: 1
